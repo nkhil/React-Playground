@@ -9,7 +9,7 @@ const NavBar = props => {
       <h5 className="text-center">NAVBAR</h5>
       <ul className="list-unstyled list-inline">
         <li className="list-inline-item mr-2 mt-2">
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="list-inline-item mr-2 mt-2">
           <Link to="/About">About</Link>
