@@ -3,7 +3,7 @@ import React from 'react';
 const About = props => {
   return (
     <div>
-      <h3 className="mt-2 text-center">About View</h3>
+      <h3>About View</h3>
     </div>
   );
 };

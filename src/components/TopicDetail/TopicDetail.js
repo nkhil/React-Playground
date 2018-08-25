@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const TopicDetail = ({ match, history }) => {
+const TopicDetail = ({ match }) => {
   return (
-    <div className="text-center">
+    <div>
       <h3>{match.params.topicId}</h3>
-      <ul className="list-unstyled list-inline">
-        <li className="list-inline-item">
+      <ul>
+        <li>
           <Link to="/Topics">Back to Topics</Link>
         </li>
       </ul>
