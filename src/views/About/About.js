@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const About = props => {
-  return (
-    <div>
-      <h3>About View</h3>
-    </div>
-  );
-};
+const aboutStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center'
+}
+
+class About extends React.Component {
+
+  render(){
+    return(
+      <Fragment>
+        <div style={aboutStyle}>
+        <h2>About</h2>
+        <p>This is where we will load in the data from the form.</p>
+        </div>        
+      </Fragment>
+    );
+  }
+}
 
 export default About;

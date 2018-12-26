@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  max-width: 750px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.8;
+}
